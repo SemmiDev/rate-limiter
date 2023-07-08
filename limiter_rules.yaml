@@ -1,0 +1,9 @@
+- domain: post
+  based_on: user_id
+  descriptors:
+    - key: topic
+      value: create-post
+  rate_limit:
+    unit: minute
+    multiplier: 1
+    requests_per_unit: 2

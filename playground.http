@@ -1,0 +1,4 @@
+POST http://localhost:8080/api/auth/login
+domain: post
+user_id: 1asdsa123122
+topic: create-post
